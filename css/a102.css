@@ -1,0 +1,85 @@
+.timeContent{
+    display:grid;
+    grid-template: 10em 1fr 0.4em 1fr / repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap:0px ;
+    font-size:15.6px;
+    width:1000px;
+}
+.conn{
+    grid-area: 3 / 1 / 4 / 7;
+    background-color: #F8D16C;
+    width:92.5%;
+    justify-self: center;
+}
+.timeImage{
+    height:96px;
+    width:69px;
+    float: left;
+    margin: 0px 5px;
+}
+.timeDes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:96px;
+}
+
+/*Why IMG*/
+.WhyContent{
+    display:grid;
+    grid-template: 1fr 1fr;
+    width: 70%;
+}
+.whydesc{
+    align-self: center;
+    justify-self: center;
+    grid-area: 1 / 1 / 2 / 2;
+}
+#why_2{
+    grid-area: 1 / 2 / 2 / 3;
+    justify-items:center;
+    align-items:center;
+    text-align: center;
+}
+
+/*Updates*/
+.upEle{
+    text-align:left;
+    padding: 1em;
+    margin: 1em;
+}
+.date{
+    color: #9E9E9E;
+    font-weight: bold;
+}
+div#uplist div#alt:nth-child(2n){
+    background-color: #F7F7F7;
+}
+
+/*Footer*/
+.footer {
+    color:#F8D16C;
+    background-color: #293B52;
+    display:grid;
+    grid-template: 1fr / 1fr minmax(500px, 1000px) 1fr;
+    padding: 1.5em;
+    margin-top: 2em;
+}
+.footerIcon{
+    grid-area: 1 / 2 / 2 / 3;
+    float:left;
+    display: grid;
+    grid-template: 1.25em / repeat(5, 1.5em);
+    align-content: center;
+}
+.socIcon{
+    width:0.75em;
+    height:auto;
+}
+.footerlinks{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.footerlinks a{
+    color:#F8D16C;
+}

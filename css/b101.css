@@ -1,0 +1,66 @@
+.DevIntro{
+    background-image: url(../assets/banner.png);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:12em;
+}
+.layout{
+    display: flex;
+    justify-content: center;
+}
+.layout .description{
+    width:100%;
+}
+.description b{
+    font-weight: bolder;
+    color:inherit;
+}
+.space{
+    width:1024px;
+}
+.firstHead{
+    margin:2em;
+}
+.firstHead .description{
+    font-size: 1.2em;
+}
+.DevContent{
+    padding: 2.5em;
+    background-color: #F7F7F7;
+    margin: 1em;
+}
+
+/*Winter Assignments*/
+.winContainer{
+    display:grid;
+    grid-template: 1fr / 1fr 100px 1fr;
+}
+#codeditch{
+    grid-area: 1 / 1 / 2 / 2;
+}
+#little{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.verticalOR{
+    display:grid;
+    grid-template: 2fr 1fr 2fr / 1fr;
+}
+.vertLine{
+    height: 100%;
+    width: 2px;
+    background-color: #CCCCCC;
+    justify-self: center;
+}
+.OR{
+    grid-area: 2 / 1 / 3 / 2;
+    text-align:center;
+    line-height: 3em;
+    color:#CCCCCC;
+}
+#vertLine1{
+    grid-area: 1 / 1 / 2 / 2;
+}
+#vertLine2{
+    grid-area: 3 / 1 / 4 / 2;
+}
